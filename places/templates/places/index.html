@@ -23,6 +23,10 @@
     <section class="section">
         <div class="container">
 
+         {% if user.is_authenticated %}
+             Hello, {{ user.username }}
+         {% endif %}
+
             <article class="media">
                 <div class="media-content">
                     <div class="content">
@@ -50,5 +54,4 @@
     <footer class="footer">
     </footer>
 </body>
-
 </html>

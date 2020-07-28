@@ -1,1 +1,4 @@
 /venv/
+/settings.yaml
+/cert.crt
+/cert.key
